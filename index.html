@@ -1,6 +1,6 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
-  <head>
+  <head> <!--This section is used to make sure pages are displayed the ame across all browsers and to link to style sheets.-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Michael's Portfolio</title>
@@ -8,9 +8,57 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <header>
-      <h1>Hello World</h1>
+    <header class="top-header"> <!--This is the first thing people will see when they come to my website. Needs to tell them exacty where they are.-->
+       <div>
+        <h1>Michael's Portfolio</h1>
+        <p>Welcome to my website</p>
+       </div>
     </header>
-    <script src="script.js"></script>
+    <hr>
+    <main>
+       <div>
+           <article>
+             <img class="vacay-img" src="images/m-and-g.jpeg" alt="Michael and Grace on Vacation" /> <!--This is the main picture on the website.-->
+               <section class="intro"> <!--This start the introduction section about myself.-->
+                 <header>
+                   <h2>Hello! My name is Michael Yarberry!</h2>
+                    <p>I am from the Killeen/Temple area in Texas. I am just starting my journey in Javascript coding and could not be more excited for this adventure!</p>
+                    <p>Some things I'm looking forward to from this program:</p>
+                    <ul>
+                      <li>Networking with other awesome coders</li>
+                      <li>Putting my problem-solving skills to the test</li>
+                      <li>Using my new knowledge of coding to create something awesome</li>
+                    </ul>
+                </header>
+               </section>
+               <section class="about"> <!--This starts the about me section.-->
+                 <header>
+                   <h2>About Michael</h2>
+                    <p>My passion for coding started in college when I began using MatLab in one of my electives.
+                      From there I dabbled in python and now I am diving deep into HTML, CSS, and Javascript.
+                      I have spent quite some time debugging code with fellow coders to try and make sense of what is broken.
+                      The joy of finding the broken or missng piece is hard to match!</p>
+                      <p>Outside of the world of web development I can usually be found interacting with friends on <a href="http://twitch.tv">Twitch</a>, crafting with my wife,
+                      or playing tabletop games. I have been and still am an avid gamer and currrently my favorite games include Elden Ring, Magic the Gathering, and Call of Duty.
+                      If I'm not spending time at home, I like to spend my time at the bowling alley where I can </p>
+                </header>
+               </section>
+               <section class="contact"> <!--This starts the contact section.-->
+                 <header>
+                   <h2>Want to get in touch with me?</h2>
+                    <ol>
+                      <li><a href="https://www.linkedin.com/in/michael-yarberry/" target="_blank">LinkedIn</a></li>
+                      <li><a href="https://github.com/yarberrymr" target="_blank">Github</a></li>
+                      <li><a href="mailto:yarberrymr@gmail.com" target="_blank">eMail</a></li>
+                    </ol>
+                </header>
+               </section>
+            </article>
+       </div>
+    </main>
+    <hr>
+    <footer> <!--This is the last thing that people will see on the website.-->
+        <h3>Owned and created by Michael Yarberry</h3>
+    </footer>
   </body>
 </html>
