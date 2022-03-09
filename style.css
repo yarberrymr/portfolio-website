@@ -5,8 +5,8 @@ body {
   width: 25%;
   height: 25%;
   float: right;
-  padding-right: 75px;
-  padding-top: 35px;
+  padding-right: 3%;
+  padding-top: 2.2%;
 }
 hr {                              /*This sets a horizontal rule with an image after the header and before the footer. Sizing adjusted to image size.*/
   width: 36px;
@@ -18,19 +18,17 @@ hr {                              /*This sets a horizontal rule with an image af
   background-size: cover;
 }
 .top-header {                     /*Adjusts the text, font, color, etc. of the main header at the top of the page.*/
-  height: 200px;
+  height: auto;
+  width: auto;
   background-color: #585481;
   text-align:center;
-  font-size: 52px;
+  font-size: 45px;
   font-family: fantasy, sans-serif, serif;
+  border: 0px black solid;
 }
 .top-header h1 {                  /*Centers the h1 text vertically in the section.*/
   margin: 0px;
-  padding: 30px 0px 0px 0px;
-}
-.top-header p {                    /* Brings the p element closer to the h1 element.*/
-  margin: 0px;
-  line-height: 35px
+  padding: 50px 0px 0px 0px;
 }
 footer {                            /*Adjusts the footerto be centered with specific color, font, etc.*/
   width: auto;
