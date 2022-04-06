@@ -39,7 +39,20 @@ footer {                            /*Adjusts the footerto be centered with spec
   padding: 1px;
   position: relative;
 }
-main h2 {                           /*This adjusts the h2 elements in the main section.*/
+.welcome h2 {
+  text-align: center;
+  font-family: fantasy, sans-serif, serif;
+  font-size: 35px;
+  color: #D1BCE3;
+  letter-spacing: 4px;
+  background-color: #19297C;
+  border: 3px #19297C solid;
+  border-radius: 5px;
+  width: 500px;
+  margin-left: 35%;
+  padding-top: 8px
+}
+section h2 {                           /*This adjusts the h2 elements in the main section.*/
   margin-top: 3px;
   margin-bottom: 3px;
   font-size: 36px;
